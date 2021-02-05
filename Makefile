@@ -44,6 +44,7 @@ SYMBOLS    := $(CURDIR)/$(BUILD)/$(TARGET).out
 CSOURCES   := $(foreach dir,$(SOURCES),$(wildcard $(dir)/*.c))
 CXXSOURCES := $(foreach dir,$(SOURCES),$(wildcard $(dir)/*.cpp))
 CXXSOURCES += $(foreach dir,$(SOURCES)/questions,$(wildcard $(dir)/*.cpp))
+CXXSOURCES += $(foreach dir,$(SOURCES)/lib,$(wildcard $(dir)/*.cpp))
 ASMSOURCES := $(foreach dir,$(SOURCES),$(wildcard $(dir)/*.s))
 
 OBJS       := $(patsubst %,$(BUILD)/%.o,$(basename $(CSOURCES)) $(basename $(CXXSOURCES)) $(basename $(ASMSOURCES)))

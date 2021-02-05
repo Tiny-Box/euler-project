@@ -1,8 +1,9 @@
 #include <iostream>
-#include "solution.h"
 using namespace std;
 
+void show_2_answer();
+
 int main() {
-    cout << solution(4000000) << endl;
+    show_2_answer();
     return 0;
 }

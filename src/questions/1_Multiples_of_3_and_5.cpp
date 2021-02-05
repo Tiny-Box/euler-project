@@ -1,12 +1,11 @@
 #include <iostream>
 #include <numeric>
 #include <set>
-// #include "solution.h"
 
 
 using namespace std;
 
-int solution1(int number) {
+int solution_1(int number) {
     int three_num = (number - 1) / 3 + 1;
     int five_num  = (number - 1) / 5 + 1;
 
@@ -26,4 +25,8 @@ int solution1(int number) {
     });
 
     return total;
+}
+
+void show_1_answer() {
+    cout << solution_1(10) << endl;
 }
