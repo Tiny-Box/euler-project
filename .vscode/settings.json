@@ -3,6 +3,9 @@
         "iostream": "cpp",
         "utility": "cpp",
         "ostream": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "numeric": "cpp",
+        "map": "cpp",
+        "functional": "cpp"
     }
 }

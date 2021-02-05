@@ -1,6 +1,8 @@
 #include <iostream>
 #include<map>
-#include "math.h"
+#include<numeric>
+#include "math_custom.h"
+
 
 
 using namespace std;
