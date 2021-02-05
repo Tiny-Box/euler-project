@@ -8,7 +8,7 @@
             "name": "debug-c++",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/out/demo",
+            "program": "${workspaceFolder}/out/euler",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
