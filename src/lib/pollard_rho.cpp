@@ -157,10 +157,18 @@ void findfac(long long n)
     findfac(p);
     findfac(n / p);
 }
-long long* factorPollard(long long n)
+
+void init() {
+    memset(factor, 0, sizeof(factor));
+    tol = 0;
+}
+
+factorResult factorPollard(long long n)
 {
+    init();
     findfac(n);
     sort(factor, factor + tol, greater<long>());
 
-    return factor;
+    factorResult res = {.factorList = factor, .tol = tol};
+    return res;
 }

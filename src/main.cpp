@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-void show_3_answer();
+void show_4_answer();
 
 int main() {
-    show_3_answer();
+    show_4_answer();
     return 0;
 }
