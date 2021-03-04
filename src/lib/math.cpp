@@ -1,5 +1,6 @@
 #include <iostream>
 #include <map>
+#include <vector>
 #include <numeric>
 #include "math_custom.h"
 
@@ -19,6 +20,17 @@ int fib(int n)
     fibRecord.insert(pair<int, int>(n, sum));
 
     return sum;
+}
+
+vector<int> fibList(int n) {
+    vector<int> res;
+    for (int i = 1; i <= n; i++)
+    {
+        res.push_back(fib(i));
+    }
+
+    return res;
+    
 }
 
 // no check overflow

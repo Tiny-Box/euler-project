@@ -6,6 +6,7 @@
         "algorithm": "cpp",
         "numeric": "cpp",
         "map": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "vector": "cpp"
     }
 }

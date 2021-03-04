@@ -1,4 +1,8 @@
+using namespace std;
+
 int fib(int n);
+
+vector<int> fibList(int n);
 
 struct factorResult
 {

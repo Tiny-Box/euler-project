@@ -19,7 +19,7 @@ BUILD     := build
 OUT       := out
 SOURCES   := src
 INCLUDES  := include
-# LIBRARIES := /usr/local
+LIBRARIES := /usr/local
 RESOURCES :=
 DATA      :=
 
